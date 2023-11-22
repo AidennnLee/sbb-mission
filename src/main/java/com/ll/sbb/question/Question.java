@@ -1,7 +1,7 @@
-package com.ll.sbb;
+package com.ll.sbb.question;
 
+import com.ll.sbb.answer.Answer;
 import jakarta.persistence.*;
-import jakarta.persistence.ManyToOne;
 import lombok.Getter;
 import lombok.Setter;
 
