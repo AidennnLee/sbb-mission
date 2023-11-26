@@ -26,7 +26,7 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 - QuestionController : 질문 관련 컨트롤러
 - QuestionRepository : 질문 리포지토리
 - QuestionService : 질문 서비스
-- QuestionForm : 질문 등록 화면의 입력값 검증
+- QuestionForm : 질문 등록 시 입력값 검증
 
 #### Answer
 
@@ -34,6 +34,7 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 - AnswerController : 답변 관련 컨트롤러
 - AnswerRepository : 답변 리포지토리
 - AnswerService : 답변 서비스
+- AnswerForm : 답변 등록 시 입력값 검증
 
 ### 엔티티
 
@@ -72,6 +73,10 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 #### layout
 
 페이지에 공통적으로 적용되는 레이아웃
+
+#### form_errors
+
+공통적인 오류 메세지를 위한 템플릿
 
 ### Exception
 
