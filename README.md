@@ -72,11 +72,15 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 
 #### layout
 
-페이지에 공통적으로 적용되는 레이아웃
+모든 페이지에 공통적으로 적용되는 레이아웃
 
 #### form_errors
 
 공통적인 오류 메세지를 위한 템플릿
+
+#### navbar
+
+모든 페이지에 공통적으로 적용되는 네비게이션 바
 
 ### Exception
 
