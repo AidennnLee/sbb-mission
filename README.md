@@ -42,6 +42,8 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 - UserRepository : 회원 리포지토리(JpaRepository<SiteUser, Long>를 상속 받은 인터페이스)
 - UserService : 회원 서비스
 - UserForm : 회원가입 폼
+- UserRole : 회원에게 부여할 권한
+- UserSecurityService : 스프링 시큐리티 로그인 처리
 
 ### 엔티티
 
@@ -88,7 +90,11 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 
 #### signup_form
 
-회원가입 템플릿
+회원가입 페이지
+
+#### login_form
+
+로그인 페이지
 
 #### layout
 
