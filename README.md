@@ -55,6 +55,7 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 |subject|	질문의 제목|
 |content|	질문의 내용|
 |create_date|	질문을 작성한 일시|
+|author_id|질문 작성자|
 
 #### 답변(Answer) 엔티티
 
@@ -64,6 +65,7 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 |question| 	질문 (어떤 질문에 대한 답변인지) |
 |content| 	답변의 내용              |
 |create_date| 	답변을 작성한 일시          |
+|author_id| 답변 작성자               |
 
 #### 회원(SiteUser) 엔티티
 
