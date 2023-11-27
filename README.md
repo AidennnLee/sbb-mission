@@ -20,7 +20,7 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 
 ### 패키지
 
-#### Question
+#### question
 
 - Question : 질문 엔티티
 - QuestionController : 질문 관련 컨트롤러
@@ -28,13 +28,20 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 - QuestionService : 질문 서비스
 - QuestionForm : 질문 등록 시 입력값 검증
 
-#### Answer
+#### answer
 
 - Answer : 답변 객체
 - AnswerController : 답변 관련 컨트롤러
 - AnswerRepository : 답변 리포지토리
 - AnswerService : 답변 서비스
 - AnswerForm : 답변 등록 시 입력값 검증
+
+#### user
+- SiteUser : 회원 객체
+- UserController : 회원가입 컨트롤러
+- UserRepository : 회원 리포지토리(JpaRepository<SiteUser, Long>를 상속 받은 인터페이스)
+- UserService : 회원 서비스
+- UserForm : 회원가입 폼
 
 ### 엔티티
 
@@ -56,6 +63,15 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 |content| 	답변의 내용              |
 |create_date| 	답변을 작성한 일시          |
 
+#### 회원(SiteUser) 엔티티
+
+|속성명| 	설명       |
+|---|-----------|
+|id| 회원의 고유 번호 |
+|username|	사용자 이름 (사용자 ID)|
+|password|	비밀번호|
+|email|	이메일|
+
 ### 템플릿
 
 #### question_list
@@ -69,6 +85,10 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 #### question_form
 
 질문 등록 페이지
+
+#### signup_form
+
+회원가입 템플릿
 
 #### layout
 
