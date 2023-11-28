@@ -68,6 +68,7 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 |create_date| 	답변을 작성한 일시          |
 |author_id| 답변 작성자               |
 |modifyDate|수정 일시|
+|voter|추천인|
 
 #### 회원(SiteUser) 엔티티
 
@@ -77,6 +78,7 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 |username|	사용자 이름 (사용자 ID)|
 |password|	비밀번호|
 |email|	이메일|
+|voter|추천인|
 
 ### 템플릿
 
