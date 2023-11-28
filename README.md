@@ -121,3 +121,7 @@ Controller는 Service에 엔티티 객체 처리를 맡긴다. Service에서는 
 ### Exception
 
 - DataNotFoundException : id 값에 해당하는 Question 데이터가 없는 경우
+
+### CommonUtil
+
+마크다운 적용
